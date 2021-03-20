@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		3D45594626042B3B004F4E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45594526042B3B004F4E20 /* AppDelegate.swift */; };
 		3D45594826042B3B004F4E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45594726042B3B004F4E20 /* SceneDelegate.swift */; };
-		3D45594A26042B3B004F4E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45594926042B3B004F4E20 /* ViewController.swift */; };
-		3D45594D26042B3B004F4E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D45594B26042B3B004F4E20 /* Main.storyboard */; };
+		3D45594A26042B3B004F4E20 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45594926042B3B004F4E20 /* HomeVC.swift */; };
 		3D45594F26042B3D004F4E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D45594E26042B3D004F4E20 /* Assets.xcassets */; };
 		3D45595226042B3D004F4E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D45595026042B3D004F4E20 /* LaunchScreen.storyboard */; };
+		3D45595E26042DE2004F4E20 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D45595A26042DE2004F4E20 /* Roboto-ThinItalic.ttf */; };
+		3D45595F26042DE2004F4E20 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D45595B26042DE2004F4E20 /* Roboto-Thin.ttf */; };
+		3D45596026042DE2004F4E20 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D45595C26042DE2004F4E20 /* Roboto-Bold.ttf */; };
+		3D45596126042DE2004F4E20 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D45595D26042DE2004F4E20 /* Roboto-Black.ttf */; };
+		3D45596626044067004F4E20 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45596526044067004F4E20 /* QuestionVC.swift */; };
+		3D4559682604808A004F4E20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4559672604808A004F4E20 /* Constants.swift */; };
+		3D45598C2604FC1A004F4E20 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45598B2604FC1A004F4E20 /* ResultsVC.swift */; };
+		3D45598E260503AD004F4E20 /* QuizzBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45598D260503AD004F4E20 /* QuizzBrain.swift */; };
+		3D4559902605054C004F4E20 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45598F2605054C004F4E20 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D45594226042B3B004F4E20 /* QuizApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D45594526042B3B004F4E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D45594726042B3B004F4E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D45594926042B3B004F4E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D45594C26042B3B004F4E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D45594926042B3B004F4E20 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		3D45594E26042B3D004F4E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D45595126042B3D004F4E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D45595326042B3D004F4E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D45595A26042DE2004F4E20 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3D45595B26042DE2004F4E20 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3D45595C26042DE2004F4E20 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3D45595D26042DE2004F4E20 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		3D45596526044067004F4E20 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		3D4559672604808A004F4E20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D45598B2604FC1A004F4E20 /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		3D45598D260503AD004F4E20 /* QuizzBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzBrain.swift; sourceTree = "<group>"; };
+		3D45598F2605054C004F4E20 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		3D45594426042B3B004F4E20 /* QuizApps */ = {
 			isa = PBXGroup;
 			children = (
-				3D45594526042B3B004F4E20 /* AppDelegate.swift */,
-				3D45594726042B3B004F4E20 /* SceneDelegate.swift */,
-				3D45594926042B3B004F4E20 /* ViewController.swift */,
-				3D45594B26042B3B004F4E20 /* Main.storyboard */,
-				3D45594E26042B3D004F4E20 /* Assets.xcassets */,
-				3D45595026042B3D004F4E20 /* LaunchScreen.storyboard */,
+				3D455964260439FC004F4E20 /* Model */,
+				3D455963260439E8004F4E20 /* Controller */,
+				3D45595926042DC0004F4E20 /* Fonts */,
+				3D455962260439DF004F4E20 /* View */,
 				3D45595326042B3D004F4E20 /* Info.plist */,
 			);
 			path = QuizApps;
+			sourceTree = "<group>";
+		};
+		3D45595926042DC0004F4E20 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D45595D26042DE2004F4E20 /* Roboto-Black.ttf */,
+				3D45595C26042DE2004F4E20 /* Roboto-Bold.ttf */,
+				3D45595B26042DE2004F4E20 /* Roboto-Thin.ttf */,
+				3D45595A26042DE2004F4E20 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D455962260439DF004F4E20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D45594E26042B3D004F4E20 /* Assets.xcassets */,
+				3D45595026042B3D004F4E20 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D455963260439E8004F4E20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D45594526042B3B004F4E20 /* AppDelegate.swift */,
+				3D45594726042B3B004F4E20 /* SceneDelegate.swift */,
+				3D45594926042B3B004F4E20 /* HomeVC.swift */,
+				3D45596526044067004F4E20 /* QuestionVC.swift */,
+				3D45598B2604FC1A004F4E20 /* ResultsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D455964260439FC004F4E20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D4559672604808A004F4E20 /* Constants.swift */,
+				3D45598D260503AD004F4E20 /* QuizzBrain.swift */,
+				3D45598F2605054C004F4E20 /* Question.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +180,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D45595F26042DE2004F4E20 /* Roboto-Thin.ttf in Resources */,
+				3D45595E26042DE2004F4E20 /* Roboto-ThinItalic.ttf in Resources */,
+				3D45596026042DE2004F4E20 /* Roboto-Bold.ttf in Resources */,
 				3D45595226042B3D004F4E20 /* LaunchScreen.storyboard in Resources */,
 				3D45594F26042B3D004F4E20 /* Assets.xcassets in Resources */,
-				3D45594D26042B3B004F4E20 /* Main.storyboard in Resources */,
+				3D45596126042DE2004F4E20 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D45594A26042B3B004F4E20 /* ViewController.swift in Sources */,
+				3D4559682604808A004F4E20 /* Constants.swift in Sources */,
+				3D4559902605054C004F4E20 /* Question.swift in Sources */,
+				3D45598C2604FC1A004F4E20 /* ResultsVC.swift in Sources */,
+				3D45598E260503AD004F4E20 /* QuizzBrain.swift in Sources */,
+				3D45596626044067004F4E20 /* QuestionVC.swift in Sources */,
+				3D45594A26042B3B004F4E20 /* HomeVC.swift in Sources */,
 				3D45594626042B3B004F4E20 /* AppDelegate.swift in Sources */,
 				3D45594826042B3B004F4E20 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +210,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3D45594B26042B3B004F4E20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D45594C26042B3B004F4E20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D45595026042B3D004F4E20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
